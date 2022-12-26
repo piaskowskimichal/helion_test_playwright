@@ -1,4 +1,3 @@
-from cgi import test
 import sys
 sys.path.append('.')
 from utils.pages_url import main_page
