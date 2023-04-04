@@ -25,9 +25,6 @@ class GameTabAndVideoPlay:
         book_select.click()
 
     def play_video_click(self):
-        self.page.pause()
         play_video=self.page.locator('a:has-text("Play")').first
         expect(play_video).to_be_enabled()
-        play_video.click()
-        
-
+        play_video.click() 
